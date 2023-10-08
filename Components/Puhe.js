@@ -22,7 +22,7 @@ export default function App() {
     if (!isSpeaking) { // yritetään korjata kaikkea, testataan hiljaisuudella
       speak();
     } else {
-      Alert.alert('Speech in Progress', 'Please wait for the current speech to finish.'); //pitäisi estää napin spämmin, mutta ei toimi, mahdollisesti liittyen äänen puutteeseen
+      Alert.alert('Speech in Progress'); //pitäisi estää napin spämmin, mutta ei toimi, mahdollisesti liittyen äänen puutteeseen
     }
   };
   return (
